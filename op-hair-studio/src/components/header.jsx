@@ -58,7 +58,7 @@ export default function Header() {
 
         <Link
           to="/booking"
-          className="hidden px-6 py-3 text-sm font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white md:inline-flex"
+          className="hidden bg-crown-gold px-6 py-3 text-sm font-bold text-crown-black hover:text-white md:inline-flex"
         >
           Book Now
         </Link> 
@@ -99,7 +99,7 @@ export default function Header() {
             <Link
               to="/booking"
               onClick={closeMenu}
-              className="mt-5 flex justify-center bg-crown-gold px-6 py-3 font-bold text-crown-black"
+              className="mt-5 flex justify-center bg-crown-gold px-6 py-3 font-bold text-crown-black hover:text-white"
             >
               Book Now
             </Link>

@@ -137,7 +137,7 @@ export default function Services() {
 
           <Link
             to="/booking"
-            className="inline-flex items-center gap-3 px-8 py-4 hover:-translate-y-1 font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white"
+            className="inline-flex items-center gap-3 px-8 py-4 hover:-translate-y-1 font-bold text-crown-black bg-crown-gold hover:bg-crown-gold hover:text-white"
           >
             Book Appointment
             <ArrowRight size={18} />
