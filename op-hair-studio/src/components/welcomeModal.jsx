@@ -5,7 +5,6 @@ import { Gift, Sparkles, X } from 'lucide-react'
 export default function WelcomeModal() {
   const [show, setShow] = useState(false)
 
-  // Show popup after 1.5 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       setShow(true)
@@ -14,7 +13,6 @@ export default function WelcomeModal() {
     return () => clearTimeout(timer)
   }, [])
 
-  // Close popup with Escape key
   useEffect(() => {
     if (!show) return
 
@@ -26,7 +24,6 @@ export default function WelcomeModal() {
 
     document.addEventListener('keydown', handleEscape)
 
-    // Stop page behind modal from scrolling
     document.body.style.overflow = 'hidden'
 
     return () => {

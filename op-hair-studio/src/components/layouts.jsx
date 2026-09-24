@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import WelcomeModal from './WelcomeModal';
+import Header from './header';
+import Footer from './footer';
+import WelcomeModal from './welcomeModal';
 
 export default function Layout() {
   return (
