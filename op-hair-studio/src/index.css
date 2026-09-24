@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  /* THE OP HAIR STUDIO PALETTE */
+
+  /* Deep hot pink - replaces black */
+  --color-crown-black: #9d174d;
+
+  /* Darker pink */
+  --color-crown-dark: #831843;
+
+  /* Very soft pink/white background */
+  --color-crown-cream: #fff8fb;
+
+  /* Hot pink - main accent */
+  --color-crown-gold: #ec4899;
+
+  /* Deeper hot pink */
+  --color-crown-gold-dark: #db2777;
+
+  /* Extra colours */
+  --color-op-pink: #ec4899;
+  --color-op-hot-pink: #db2777;
+  --color-op-baby-pink: #fce7f3;
+  --color-op-blush: #fdf2f8;
+  --color-op-white: #ffffff;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-crown-cream font-body text-neutral-800;
+  }
+
+   p {
+    @apply text-op-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+
+  button,
+  a {
+    @apply transition-all duration-300;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
