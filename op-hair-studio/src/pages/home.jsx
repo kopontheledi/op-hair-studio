@@ -95,7 +95,7 @@ export default function Home() {
 
                             <Link
                                 to="/booking"
-                                className="inline-flex items-center justify-center gap-3 bg-crown-gold px-7 py-4 font-bold text-crown-black hover:-translate-y-1 hover:bg-amber-300"
+                                className="inline-flex items-center justify-center gap-3 bg-crown-gold px-7 py-4 hover:-translate-y-1 font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white"
                             >
                                 Book Your Appointment
                                 <ArrowRight size={18} />
@@ -426,7 +426,7 @@ export default function Home() {
 
                     <Link
                         to="/booking"
-                        className="inline-flex shrink-0 items-center justify-center gap-3 bg-crown-gold px-8 py-4 font-bold text-crown-black hover:-translate-y-1 hover:bg-amber-300"
+                        className="inline-flex shrink-0 items-center justify-center gap-3 bg-crown-gold px-8 py-4 hover:-translate-y-1 font-bold text-crown-black hover:bg-crown-gold hover:text-white"
                     >
                         Book Appointment
                         <ArrowRight size={18} />

@@ -827,7 +827,7 @@ export default function Booking() {
 
                 <button
                   type="submit"
-                  className="mt-7 flex w-full items-center justify-center gap-2 bg-crown-gold px-6 py-4 font-bold text-crown-black hover:bg-amber-300"
+                  className="mt-7 flex w-full items-center justify-center gap-2 bg-crown-gold px-6 py-4 font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white"
                 >
                   Confirm Booking
 

@@ -142,52 +142,69 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
-          <h3 className="mb-6 font-heading text-lg font-bold text-white">
-            Opening Hours
-          </h3>
+<div>
+  <h3 className="mb-6 font-heading text-lg font-bold text-white">
+    Opening Hours
+  </h3>
 
-          <div className="space-y-4 text-sm">
+  <div className="space-y-4 text-sm">
 
-            <div className="flex gap-3">
-              <Clock3
-                size={17}
-                className="mt-0.5 shrink-0 text-crown-gold"
-              />
+    {/* MONDAY - FRIDAY */}
+    <div className="flex gap-3">
+      <Clock3
+        size={17}
+        className="mt-0.5 shrink-0 text-crown-gold"
+      />
 
-              <div>
-                <p className="text-neutral-300">
-                  Monday – Friday
-                </p>
+      <div>
+        <p className="text-neutral-300">
+          Monday – Friday
+        </p>
 
-                <p className="mt-1 text-neutral-500">
-                  08:00 – 18:00
-                </p>
-              </div>
-            </div>
+        <p className="mt-1 text-neutral-500">
+          08:00 – 18:00
+        </p>
+      </div>
+    </div>
 
-            <div className="border-t border-white/10 pt-4">
-              <p className="text-neutral-300">
-                Saturday
-              </p>
+    {/* SATURDAY */}
+    <div className="flex gap-3 border-t border-white/10 pt-4">
+      <Clock3
+        size={17}
+        className="mt-0.5 shrink-0 text-crown-gold"
+      />
 
-              <p className="mt-1 text-neutral-500">
-                08:00 – 17:00
-              </p>
-            </div>
+      <div>
+        <p className="text-neutral-300">
+          Saturday
+        </p>
 
-            <div className="border-t border-white/10 pt-4">
-              <p className="text-neutral-300">
-                Sunday
-              </p>
+        <p className="mt-1 text-neutral-500">
+          08:00 – 17:00
+        </p>
+      </div>
+    </div>
 
-              <p className="mt-1 text-neutral-500">
-                Closed
-              </p>
-            </div>
+    {/* SUNDAY */}
+    <div className="flex gap-3 border-t border-white/10 pt-4">
+      <Clock3
+        size={17}
+        className="mt-0.5 shrink-0 text-crown-gold"
+      />
 
-          </div>
-        </div>
+      <div>
+        <p className="text-neutral-300">
+          Sunday
+        </p>
+
+        <p className="mt-1 text-neutral-500">
+          Closed
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
 
         <div>
           <h3 className="mb-6 font-heading text-lg font-bold text-white">
@@ -241,7 +258,7 @@ export default function Footer() {
 
           <Link
             to="/booking"
-            className="mt-7 inline-flex bg-crown-gold px-5 py-3 text-sm font-bold text-crown-black hover:bg-amber-300"
+            className="mt-7 inline-flex bg-crown-gold px-5 py-3 text-sm font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white"
           >
             Book Appointment
           </Link>

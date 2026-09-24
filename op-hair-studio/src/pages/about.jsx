@@ -104,7 +104,7 @@ export default function About() {
 
             <Link
               to="/booking"
-              className="mt-8 inline-flex items-center gap-3 bg-crown-black px-7 py-4 font-bold text-white hover:bg-crown-gold hover:text-crown-black"
+              className="mt-8 inline-flex items-center gap-3 px-7 py-4 font-bold text-white bg-crown-black hover:bg-crown-gold hover:text-crown-black"
             >
               Visit The Studio
               <ArrowRight size={17} />
@@ -276,7 +276,7 @@ export default function About() {
 
           <Link
             to="/booking"
-            className="mt-8 inline-flex items-center gap-3 bg-crown-gold px-8 py-4 font-bold text-crown-black hover:-translate-y-1 hover:bg-amber-300"
+            className="mt-8 inline-flex items-center gap-3 px-8 py-4 hover:-translate-y-1 font-bold text-crown-black bg-crown-black hover:bg-crown-gold hover:text-white"
           >
             Book Your Appointment
             <ArrowRight size={18} />
