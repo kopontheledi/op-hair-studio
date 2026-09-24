@@ -503,21 +503,19 @@ export default function Booking() {
                         }`}
                       >
 
-                        <div className="relative h-48 overflow-hidden bg-neutral-100">
+                        <div className="relative h-72 overflow-hidden bg-pink-50 sm:h-64">
+  <img
+    src={item.image}
+    alt={item.name}
+    className="h-full w-full object-cover object-top"
+  />
 
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="h-full w-full object-cover"
-                          />
-
-                          {selected && (
-                            <span className="absolute right-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-crown-gold text-white shadow">
-                              <Check size={15} />
-                            </span>
-                          )}
-
-                        </div>
+  {selected && (
+    <span className="absolute right-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-pink-500 text-white shadow">
+      <Check size={15} />
+    </span>
+  )}
+</div>
 
                         <div className="bg-white p-4">
 

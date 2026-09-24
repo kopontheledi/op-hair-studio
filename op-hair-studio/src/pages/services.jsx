@@ -12,7 +12,7 @@ export default function Services() {
 
         <div className="relative mx-auto max-w-7xl px-5 text-center lg:px-8">
           <p className="mb-4 text-xs font-bold tracking-[0.3em] text-crown-gold">
-            THE OP HAIR STUDIO
+            OP HAIR STUDIO
           </p>
 
           <h1 className="font-heading text-5xl font-bold sm:text-6xl md:text-7xl">

@@ -12,28 +12,28 @@ import {
 
 const services = [
     {
-        icon: Scissors,
-        title: 'Signature Cut',
+        icon: Sparkles,
+        title: 'Knotless Braids',
         description:
-            'A tailored haircut finished with precision styling for a clean, confident look.',
-        price: 'R220',
-        duration: '45 min',
+            'Beautiful, lightweight knotless braids with a neat, comfortable and long-lasting finish.',
+        price: 'R1000',
+        duration: '4 hrs',
+    },
+    {
+        icon: Scissors,
+        title: 'Silk Press',
+        description:
+            'Smooth, glossy styling with beautiful movement and shine without chemical relaxers.',
+        price: 'R450',
+        duration: '1 hr 30 min',
     },
     {
         icon: Sparkles,
-        title: 'Skin Fade',
+        title: 'Kids Cornrows',
         description:
-            'Sharp transitions, clean lines and a flawless finish crafted by our fade specialists.',
-        price: 'R250',
-        duration: '50 min',
-    },
-    {
-        icon: Scissors,
-        title: 'Cut & Beard',
-        description:
-            'The complete grooming experience combining a signature cut with detailed beard shaping.',
-        price: 'R350',
-        duration: '60 min',
+            'Simple and neat cornrows for little ones, styled gently with care and comfort.',
+        price: 'R80',
+        duration: '45 min',
     },
 ]
 
@@ -141,32 +141,28 @@ export default function Home() {
 
                     <div>
                         <p className="mb-4 text-xs font-bold tracking-[0.3em] text-crown-gold-dark">
-                            WELCOME TO THE CROWN
+                            WELCOME
                         </p>
 
                         <h2 className="font-heading text-4xl font-bold leading-tight text-crown-black sm:text-5xl lg:text-6xl">
                             More Than
                             <br />
-                            A Haircut.
+                            Just Hair.
                         </h2>
 
                         <p className="mt-6 max-w-xl text-lg leading-8 text-neutral-600">
-                            The OP Hair Studio combines traditional barbering
-                            craftsmanship with contemporary style.
+                            OP Hair Studio is a welcoming space for women and little ones
+                            to feel beautiful, confident and cared for.
                         </p>
                     </div>
 
                     <div className="flex flex-col justify-center">
 
                         <p className="leading-8 text-neutral-600">
-                            We believe a great haircut should do more than change how you
-                            look. It should change how you walk out the door.
-                        </p>
-
-                        <p className="mt-5 leading-8 text-neutral-600">
-                           From beautiful braids and protective styles to cuts, colour and
-professional styling, we create personalised looks for women and
-little ones with care, comfort and attention to every detail.
+                            From braids and protective styles to cuts, colour and everyday
+                            styling, we believe every appointment should be more than just
+                            doing your hair. It should be a moment to relax, feel pampered
+                            and leave looking and feeling your best.
                         </p>
 
                         <Link
@@ -197,8 +193,8 @@ little ones with care, comfort and attention to every detail.
                         </h2>
 
                         <p className="mt-5 leading-7 text-neutral-500">
-                            Premium grooming services delivered with precision, care and
-                            attention to every detail.
+                            Beautiful hair services for women and little ones, delivered with
+                            care, creativity and attention to every detail.
                         </p>
 
                     </div>
@@ -293,28 +289,29 @@ little ones with care, comfort and attention to every detail.
                     <div className="max-w-xl">
 
                         <p className="mb-4 text-xs font-bold tracking-[0.3em] text-crown-gold">
-                            THE CROWN EXPERIENCE
+                            THE OP EXPERIENCE
                         </p>
 
                         <h2 className="font-heading text-4xl font-bold text-white sm:text-5xl">
-                            Where Craft
+                            Where Beauty
                             <br />
-                            Meets Character.
+                            Meets Confidence.
                         </h2>
 
-                        <p className="mt-6 leading-8 text-neutral-400">
-                            Step into a space built around craftsmanship, conversation and
-                            confidence. Every detail of your visit is designed to make
-                            grooming feel less like a chore and more like an experience.
+                        <p className="mt-6 leading-8 text-neutral-300">
+                            Step into a warm and welcoming space created for women and little
+                            ones. From braids and protective styles to cuts, washes and
+                            professional styling, every appointment is centred around care,
+                            comfort and helping you feel your best.
                         </p>
 
                         <div className="mt-10 space-y-5">
 
                             {[
-                                'Experienced professional barbers',
-                                'Premium grooming products',
-                                'Relaxed modern atmosphere',
-                                'Personalised consultations',
+                                'Experienced professional stylists',
+                                'Women & kids hair services',
+                                'Braids & protective styling',
+                                'Personalised hair consultations',
                             ].map((item) => (
                                 <div
                                     key={item}
@@ -324,7 +321,7 @@ little ones with care, comfort and attention to every detail.
                                         <Check size={16} />
                                     </span>
 
-                                    <span className="text-neutral-300">
+                                    <span className="text-neutral-200">
                                         {item}
                                     </span>
                                 </div>
@@ -334,9 +331,9 @@ little ones with care, comfort and attention to every detail.
 
                         <Link
                             to="/about"
-                            className="mt-9 inline-flex items-center gap-2 border border-white/40 px-7 py-4 font-bold text-white hover:bg-white hover:text-black"
+                            className="mt-9 inline-flex items-center gap-2 border border-white/40 px-7 py-4 font-bold text-white transition hover:border-crown-gold hover:bg-crown-gold hover:text-white"
                         >
-                            Meet The Team
+                            Meet Our Stylists
                             <ArrowRight size={17} />
                         </Link>
 
